@@ -28,8 +28,7 @@ public class App
        
         Double res,res2,a,b;
         Scanner sc= new Scanner(System.in);
-        
-        
+           
         System.out.println("Ingrese primer numero");
         a=sc.nextDouble();
         System.out.println("Ingrese segundo numero");
