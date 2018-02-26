@@ -17,7 +17,12 @@ public class App
         Suma suma = new Suma();
         Resta resta = new Resta();
         
+
         JOptionPane.showMessageDialog(null,"El resultado es el siguiente:" + suma.operacion());
+
+
+        JOptionPane.showMessageDialog(null,"El resultado es este :" + suma.operacion());
+ 
 
         JOptionPane.showMessageDialog(null,"El resultado es :" + resta.operacion());
        
