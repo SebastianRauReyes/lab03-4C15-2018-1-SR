@@ -1,16 +1,25 @@
 package com.tecsup.lab03.controller;
 
-/**
- * Hello world!
- *
- */
+import javax.swing.JOptionPane;
+
+import javax.swing.JOptionPane;
+
+
+
 import java.util.Scanner;
 
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+    	
+        Suma suma = new Suma();
+        Resta resta = new Resta();
+        
+        JOptionPane.showMessageDialog(null,"El resultado es :" + suma.operacion());
+ 
+        JOptionPane.showMessageDialog(null,"El resultado es :" + resta.operacion());
        
         Double res,res2,a,b;
         Scanner sc= new Scanner(System.in);
@@ -29,5 +38,14 @@ public class App
         res2=dos.funcion2(a, b);
         System.out.println("resultado division: "+res2);
         
+
+    	
+        Suma suma = new Suma();
+        Resta resta = new Resta();
+        
+        JOptionPane.showMessageDialog(null,"El resultado es :" + suma.operacion());
+ 
+        JOptionPane.showMessageDialog(null,"El resultado es :" + resta.operacion());
+
     }
 }
